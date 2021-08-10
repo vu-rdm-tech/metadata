@@ -1,3 +1,9 @@
+# Minimal descriptive metadata for research data
+
+**M** Considered mandatory for findability of your dataset and correct registration in Pure  
+**R** Recommended for optimal findability  
+**O** Optional
+
 | **ID** | **Property** | **Subproperty** | **Publishing** | **Archiving** | **Explanation**
 |---|---|---|---|---|---
 | 1 |  Identifier |  | M | O | This should be a global unique identifier, which preferably is unchangeable and links to the datasets. In most cases the repository where you publish your data will generate this in the form of a Handle or DOI.<br>If no persistent URL is available you could use a normal URL, but be aware that you should not move the data afterwards.<br>(A persistent identifier is optional for unpublished archived datasets.)
@@ -26,8 +32,10 @@
 | 19 | Funding Reference | | O | O |
 | 20 | Related item | | O | O |
 
-## Resource types
 
+
+
+## Resource types
 
 <table>
   <tr>
