@@ -11,17 +11,17 @@ the researchers involved in the particular project  might have left the organiza
 metadata to identify who created the dataset, what it is and why it was produced. 
 
 #### For publishing
-By publishing we mean sharing the metadata and if possible the dataset itself on the internet. By using the DataCite schema The VU follows
+By publishing we mean sharing the metadata and, if possible, the dataset itself on the internet. By using the DataCite schema The VU follows
 [FAIR (Findable Accessible Interoperable) principles](https://www.go-fair.org/fair-principles/).
 
-The VU also wants published datasets to be registered in the research information system Pure (https://research.vu.nl). 
-The minimal metadata is sufficient for Pure registrations. For most repositories (DataverseNL, Yoda, Zenodo, etc.) will be
+The VU requires published datasets to be registered in the research information system Pure (https://research.vu.nl). 
+The minimal metadata is sufficient for Pure registrations. For most repositories (DataverseNL, Yoda, Zenodo, etc.) Pure is
 able to automatically harvest the metadata so you do not have to describe the metadata twice.  
 
 #### Human vs machine readability
 When describing a dataset think about how the metadata will be used. Machines will index the metadata so you should add 
 relevant keywords, description and a title so your dataset will pop up in an internet search. Make sure you as creator and all 
-the conbtributors are correctly named so published datasets are correctly attributed to you and automated systems can add
+the contributors are correctly named so published datasets are correctly attributed to you and automated systems can add
 them to your portfolio. Explicitly add persistent URLs to related publications or datasets to the metadata so they can be linked.
 
 Once someone finds your dataset he or she will want to read your description to quickly see if the dataset is relevant, 
