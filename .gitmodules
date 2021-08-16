@@ -1,0 +1,4 @@
+[submodule "melite"]
+	path = melite
+	url = https://github.com/vu-rdm-tech/melite-metadata.git
+	branch = vu-proposed
