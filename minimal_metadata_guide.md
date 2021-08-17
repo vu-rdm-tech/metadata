@@ -1,10 +1,14 @@
 # Minimal descriptive metadata for research data
 
 ## Introduction
-This document is meant as a practical guideline for researchers to advise them on a minimal set of metadata to describe a research dataset. 
-The set of metadata properties used is based on the [DataCite Metadata Schema](https://schema.datacite.org/meta/kernel-4.4/).
+Data and metadata standards can be complex and difficult to start working with. This document provides a practical guideline to working with a generic minimal metadata description that can be used to describe any dataset. In this document we define: 
+- **dataset** as information generated, or used, that is conceptually and/or logically related and can be written down (encoded/serialised) as one or more files in a machine readable format.
+- **metadata** as information that describes a dataset and can be written down (serialised/encoded) in one or more standard formats and a
+- **standard format** a formally defined metadata schema that is well defined, serialisable and available in a machine readable format. In this document the metadata properties are derived from and map to a subset of the [DataCite Metadata Schema](https://schema.datacite.org/meta/kernel-4.4/).
 
 ### Why (minimal) metadata?
+In principle, *richer metadata is better*. However, the properties described in this subset should be applicable to (and supported by) a wide a range of tools, platforms etc. In addition this document should also be used by researchers who have limited time to spend on annotating datasets and may be discouraged if *required* to add extensive metadata to every dataset. A minimalist approach is taken, where the number of *required* properties is kept to a mimnimum (only those necessary to ensure DataCite interoperability) and a more extensive set of properties is provided that allows for a richer semantic description and dataset linking. The use of these additiona properties is highly recommended.
+
 #### For archiving
 By archiving we mean storing an immutable copy of a dataset for a longer period (5 or 10 years). During such a period all 
 the researchers involved in the particular project  might have left the organization. This means there should be enough 
