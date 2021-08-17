@@ -17,15 +17,12 @@ By publishing we mean sharing the metadata and, if possible, the dataset itself 
 
 The VU data management policy requires published datasets to be registered in the research information system [Pure](https://research.vu.nl) and rhe minimal metadata specification includes the necessary properties that allows for easy dataset registration in Pure. When research data is deposited in widely-used, registered, repositories (DataverseNL, Yoda, Zenodo, etc.) it can be automatically harvested and registered in Pure without having to enter the same information twice.  
 
-#### Human vs machine readability
+#### Human vs. machine readability
 When describing a dataset think about how the metadata will be used. Computers will index the metadata so you should add 
-relevant keywords, description and a title so your dataset will pop up in an internet search. Make sure you as creator and all 
-the contributors are correctly named so published datasets are correctly attributed to you and automated systems can add
-them to your portfolio. Explicitly add persistent URLs to related publications or datasets to the metadata so they can be linked.
+relevant keywords, description and a title so your dataset will pop up in an internet search. Make sure you as creator and all the contributors are correctly named so published datasets are correctly attributed to you and automated systems can attribute the dataset to your research output. Explicitly adding persistent URLs to related publications or datasets to the metadata enables them to be efficiently linked together.
 
 Once someone finds your dataset he or she will want to read your description to quickly see if the dataset is relevant, 
-so especially the description should be human readable. Consider adding extra documentation in the form of a README file 
-or a codebook to provide more context on how the data was gathered and processed, variables used in files, what software was used, etc. 
+so it is important that the *Description* should be human readable. While the description should describe the data it is generally good practice to add extra information about the dataset in additional documentation. This can take the form of a README.txt file or codebook and can provide more context on how the data was gathered and processed, the experimental protocols and software used to generate the dataset as well as the filename system and variable nanes used in the individual files etc. 
 
 ### How to use this document?
 Most, if not all, repositories and publication platforms will use their own webform for metadata with mandatory and recommended fields. Consider 
