@@ -10,17 +10,12 @@ Data and metadata standards can be complex and difficult to start working with. 
 In principle, *richer metadata is better*, however, the properties used in this subset should be applicable to (and supported by) a wide a range of tools, platforms etc. In addition, the properties decscribed in this document should be usable by researchers who do not have a domain specific alternative and who, in general, may even be discouraged from using metadata at all if *required* to add extensive metadata to every dataset they produce. Instead a minimalist approach is used i.e. the number of *required* properties is kept to a mimnimum (only those necessary to ensure DataCite interoperability). Furthermore a more extensive set of properties is provided that allows for richer descriptions of the data as well as semantic linking to other resources. The use of these additional properties is highly recommended.
 
 #### For archiving
-By archiving we mean storing an immutable copy of a dataset for a longer period (5 or 10 years). During such a period all 
-the researchers involved in the particular project  might have left the organization. This means there should be enough 
-metadata to identify who created the dataset, what it is and why it was produced. 
+By archiving we mean storing an immutable copy of a dataset for a longer period (5 or 10 years). During such a period all the researchers involved in the particular project  might have left the organization. This means there should be enough metadata to identify who created the dataset, what it is and why it was produced. 
 
 #### For publishing
-By publishing we mean sharing the metadata and, if possible, the dataset itself on the internet. By basing our minimal 
-metadata guideline on DataCite The VU follows [FAIR (Findable Accessible Interoperable) principles](https://www.go-fair.org/fair-principles/).
+By publishing we mean sharing the metadata and, if possible, the dataset itself on the internet making it findable and reusable by other researchers. In this way, like DataCite, our minimal metadata guidelines enables [FAIR (Findable, Accessible, Interoperable, Reusable)](https://www.go-fair.org/fair-principles/) data management.
 
-The VU requires published datasets to be registered in the research information system Pure (https://research.vu.nl). 
-The minimal metadata is sufficient for Pure registrations. For most repositories (DataverseNL, Yoda, Zenodo, etc.) Pure is
-able to automatically harvest the metadata so you do not have to describe the metadata twice.  
+The VU data management policy requires published datasets to be registered in the research information system [Pure](https://research.vu.nl) and rhe minimal metadata specification includes the necessary properties that allows for easy dataset registration in Pure. When research data is deposited in widely-used, registered, repositories (DataverseNL, Yoda, Zenodo, etc.) it can be automatically harvested and registered in Pure without having to enter the same metadata twice.  
 
 #### Human vs machine readability
 When describing a dataset think about how the metadata will be used. Computers will index the metadata so you should add 
