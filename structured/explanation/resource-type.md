@@ -1,0 +1,1 @@
+Choose one of the following terms from the [table](#resource-types)

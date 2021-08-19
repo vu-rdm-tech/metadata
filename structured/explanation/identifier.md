@@ -1,0 +1,3 @@
+This should be a global unique identifier, which preferably is unchangeable and links to the datasets. In most cases the repository where you publish your data will generate this in the form of a Handle or DOI.<br>
+If no persistent URL is available you could use a normal URL, but be aware that you should not move the data afterwards.<br>
+(A persistent identifier is optional for unpublished archived datasets.)

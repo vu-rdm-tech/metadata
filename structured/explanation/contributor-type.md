@@ -1,0 +1,1 @@
+The role of the contributor, see the [table](#contributor-types) for possible types. If contributor is used then Contributor Type is mandatory.

@@ -1,0 +1,1 @@
+The particular relation to the resource should be described by one of the terms in the [table](#relation-types)

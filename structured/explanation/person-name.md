@@ -1,0 +1,1 @@
+Enter names of persons as: &lt;family name>, &lt;first name> &lt;initials> e.g. Olivier, Brett G.

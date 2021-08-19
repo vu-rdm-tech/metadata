@@ -9,3 +9,15 @@
 
 [melite text format](melite/melite-proposed.md) 
 When cloning the repository initialise this module with `git submodule update --init --remote -- melite`
+
+## Building metadata documentation from parts
+Example: the minimal guide template [structured/docs/minimal-guide.md(structured/docs/minimal-guide.md)
+```
+cd structured
+python preprocess.py -i docs/minimal-guide.md -o minimal-metadata-guide.md
+```
+## Creating different file formats
+Install [pandoc](https://pandoc.org/installing.html).
+```
+pandoc -f markdown -t docx -o minimal-metadata-guide.docx minimal-metadata-guide.md 
+```

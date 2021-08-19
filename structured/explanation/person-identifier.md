@@ -1,0 +1,2 @@
+If known, enter one or more unique identifiers like AuthorID, ORCID, ISNI or ResearcherID.<br>
+The VU strongly recommends registering for an ORCID ([https://orcid.org/](https://orcid.org/)). This is an easy way to uniquely identify yourself over which you have full control.

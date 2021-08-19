@@ -1,0 +1,2 @@
+The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource.<br>
+For software, if there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, orproduces" the code, use the contributor Type "hostingInstitution" for the code repository.

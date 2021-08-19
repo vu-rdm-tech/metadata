@@ -1,0 +1,1 @@
+Technical formats of your data (for example pdf, xls, stata). This will help other researchers to use your data and provides information on the long term preservation of the data.<br>Consider adding a README file to your dataset to provide a more in-depth explanation on which software you used to create your dataset.
