@@ -26,12 +26,9 @@ so it is important that the *Description* should be human readable. While the de
 
 ### How to use this document?
 Most, if not all, repositories and publication platforms will use their own webform for metadata with mandatory and recommended fields. Consider 
-this document as a guideline for recommended and mandatory fields extra to those the particular system requires.
-Sometimes properties might be differently named (for example authors vs creators) but in all cases it should 
-be possible to enter all the metadata that is advised in this document.
+this document as a guideline for recommended and mandatory fields extra to those the particular system requires. Sometimes properties might be differently named (for example authors vs creators) but in all cases it should be possible to enter, at least, the mandatory metadata that is advised in this document. Similarly, during your research, if domain-specific metadata exists, that includes the mandatory properties described here, then it is recomended to use the domain-specific format as metadata. However, in cases where no domain-specific metadata exists, the guidelines presented here should be considered.
 
-If the system does not provide you with functionality for entering metadata (for example research drive) you might consider 
-adding a text file with the metadata. We have developed a specification for such a file (https://github.com/vu-rdm-tech/melite-metadata/blob/main/melite-proposed.md).
+If your storage system does not provide you with functionality for entering metadata (for example ResearchDrive, OneDrive) you can consider using the human-writable, machine readable form of these guidelines, [Melite](https://github.com/vu-rdm-tech/melite-metadata/blob/main/melite-proposed.md), that we have developed that can be saved as a standard text file.
 
 ## Properties and explanations
 
