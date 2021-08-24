@@ -1,1 +1,1 @@
-Information about a resource related to the one being registered, e.g., a publication involving this dataset or another dataset.
+Information about a resource related to the one being registered, e.g. another dataset based on the same source data or a publication involving this dataset .

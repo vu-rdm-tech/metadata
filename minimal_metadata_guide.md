@@ -69,7 +69,7 @@ By doing this we have linked or mapped the relations between our document to oth
 | 9  | Language | | O | O | The primary language of your dataset. Please use a 2 letter code (e.g. en, nl, fr, see https://www.loc.gov/standards/iso639-2/php/code_list.php).
 | 10 | Resource Type | | M | M | Choose one of the following terms from the [table](#resource-types)
 | 11 | Alternate Identfier(s) | | O | O | Alternative identifiers (next to the one supplied in 1) uniquely describing your dataset.
-| 12a | Related Item(s) | | R | R | Information about a resource related to the one being registered, e.g., a publication involving this dataset or another dataset.
+| 12a | Related Item(s) | | R | R | Information about a resource related to the one being registered, e.g. another dataset based on the same source data or a publication involving this dataset .
 | 12b |  | Identifier | R | R |State the persistent identifier of the related item (for example a DOI). If no persistent identifier is available use the URL. 
 | 12c |  | Relation Type | R | R | The particular relation to the resource should be described by one of the terms in the [table](#relation-types)
 | 13 | Size | | O | O | The size (MB, GB, TB) of your dataset, in most cases the repository will calculate this for you.
