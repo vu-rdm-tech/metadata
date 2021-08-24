@@ -30,6 +30,21 @@ this document as a guideline for recommended and mandatory fields extra to those
 
 If your storage system does not provide you with functionality for entering metadata (for example ResearchDrive, OneDrive) you can consider using the human-writable, machine readable form of these guidelines, [Melite](https://github.com/vu-rdm-tech/melite-metadata/blob/main/melite-proposed.md), which we have developed and can be saved as a plaing text file.
 
+### Using related identifiers
+This metadata specification allows you to link the dataset or collection that it describes to other online resources. More commonly know as [Linked Data](https://en.wikipedia.org/wiki/Linked_data) these relations form the basis of the Semantic Web and can be thought of as a set of statements that relate a *subject* (the dataset described by the metadata) using a *predicate* (the related identifier property) to an *object* (represented by a unique identifier). 
+
+For example, consider metadata describing this specification document (the dataset), we could say:
+* the dataset is derived from DataCite 4.
+* the dataset is a version of the text that is developed on GitHub.
+* the dataset is the source of the human-readable format Melite
+
+If we add in some specific detail and make the subject implicit (everything is about the dataset) we can rewrite the above as:
+* **IsDerivedFrom** 10.14454/3w3z-sa82
+* **IsVersionOf** https://github.com/vu-rdm-tech/metadata
+* **IsSourceOf** https://github.com/vu-rdm-tech/melite-metadata
+
+By doing this we have linked or mapped the relations between our document to other internet resources in a machine readable way.
+
 ## Properties and explanations
 
 **M** Considered mandatory for findability of your dataset and correct registration in Pure  
