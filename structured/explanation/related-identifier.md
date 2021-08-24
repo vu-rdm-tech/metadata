@@ -1,1 +1,1 @@
-List other resources related to your dataset, for example journal articles for which the data was used or other dataset generated from the same source.<br>Please use unique identifiers like DOIs.
+State the persistent identifier of the related item (for example a DOI). If no persistent identifier is available use the URL.

@@ -70,7 +70,7 @@ By doing this we have linked or mapped the relations between our document to oth
 | 10 | Resource Type | | M | M | Choose one of the following terms from the [table](#resource-types)
 | 11 | Alternate Identfier(s) | | O | O | Alternative identifiers (next to the one supplied in 1) uniquely describing your dataset.
 | 12a | Related Item(s) | | R | R | Information about a resource related to the one being registered, e.g., a publication involving this dataset or another dataset.
-| 12b |  | Identifier | R | R |List other resources related to your dataset, for example journal articles for which the data was used or other dataset generated from the same source.<br>Please use unique identifiers like DOIs. 
+| 12b |  | Identifier | R | R |State the persistent identifier of the related item (for example a DOI). If no persistent identifier is available use the URL. 
 | 12c |  | Relation Type | R | R | The particular relation to the resource should be described by one of the terms in the [table](#relation-types)
 | 13 | Size | | O | O | The size (MB, GB, TB) of your dataset, in most cases the repository will calculate this for you.
 | 14 | Format | | O | O | Technical formats of your data (for example pdf, xls, stata). This will help other researchers to use your data and provides information on the long term preservation of the data.<br>Consider adding a README file to your dataset to provide a more in-depth explanation on which software you used to create your dataset.
