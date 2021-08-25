@@ -81,223 +81,93 @@ By doing this we have linked or mapped the relations between our document to oth
 | 19 | Funding Reference(s) | | O | O | The name(s) of the organization(s) funding the research. If using this property also add the Award Number.
 
 ## Resource types
-<table>
-  <tr>
-   <td><strong>Audiovisual</strong>
-   </td>
-   <td>A series of visual representations imparting an impression of motion when shown in succession. May or may not include sound.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Book</strong>
-   </td>
-   <td>A medium for recording information in the form of writing or images, typically composed of many pages bound together and protected by a cover
-   </td>
-  </tr>
-  <tr>
-   <td><strong>BookChapter</strong>
-   </td>
-   <td>One of the main divisions of a book.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Collection</strong>
-   </td>
-   <td>An aggregation of resources, which may encompass collections of one resourceType as well as those of mixed types. A collection is described as a group; its parts
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ComputationalNotebook</strong>
-   </td>
-   <td><a href="https://en.wikipedia.org/wiki/Literate_programming">A virtual notebook environment used for literate</a> programming
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ConferencePaper</strong>
-   </td>
-   <td>Article that is written with the goal of being accepted to a conference
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ConferenceProceeding</strong>
-   </td>
-   <td>Collection of academic papers published in the context of an academic conference
-   </td>
-  </tr>
-  <tr>
-   <td><strong>DataPaper</strong>
-   </td>
-   <td>A factual and objective publication with a focused intent to identify and describe specific data, sets of data, or data collections to facilitate discoverability
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Dataset</strong>
-   </td>
-   <td>Data encoded in a defined structure
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Dissertation</strong>
-   </td>
-   <td>A written essay, treatise, or thesis,
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Event</strong>
-   </td>
-   <td>A non-persistent, time- based occurrence
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Image</strong>
-   </td>
-   <td>A visual representation other than text
-   </td>
-  </tr>
-  <tr>
-   <td><strong>InteractiveResource</strong>
-   </td>
-   <td>A resource requiring interaction from the user to be understood, executed, or experienced
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Model</strong>
-   </td>
-   <td>An abstract, conceptual, graphical, mathematical or visualization model that represents empirical objects, phenomena, or physical processes
-   </td>
-  </tr>
-  <tr>
-   <td><strong>OutputManagementPlan</strong>
-   </td>
-   <td>A formal document that outlines how research outputs are to be handled both during a research project and after the project is completed
-   </td>
-  </tr>
-  <tr>
-   <td><strong>PeerReview</strong>
-   </td>
-   <td>Evaluation of scientific, academic, or professional work by others working in the same field
-   </td>
-  </tr>
-  <tr>
-   <td><strong>PhysicalObject</strong>
-   </td>
-   <td>An inanimate, three- dimensional object or substance
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Preprint</strong>
-   </td>
-   <td>A version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Report</strong>
-   </td>
-   <td>A document that presents information in an organized format for a specific audience and purpose
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Service</strong>
-   </td>
-   <td>An organized system of apparatus, appliances, staff, etc., for supplying some function(s) required by end users
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Software</strong>
-   </td>
-   <td>A computer program other than a computational notebook, in either source code (text) or compiled form. Use this type for general software components supporting scholarly research. Use the “ComputationalNote book” value for virtual notebooks.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Sound</strong>
-   </td>
-   <td>A resource primarily intended to be heard
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Standard</strong>
-   </td>
-   <td>Something established by authority, custom, or general consent as a model, example, or point of reference
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Text</strong>
-   </td>
-   <td>A resource consisting primarily of words for reading that is not covered by any other textual
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Workflow</strong>
-   </td>
-   <td>A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Other</strong>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+| **Option** | Definition
+  --- | ---
+**Audiovisual**            | A series of visual representations imparting an impression of motion when shown in succession. May or may not include sound.
+**Book**                   | A medium for recording information in the form of writing or images, typically composed of many pages bound together and protected by a cover
+**BookChapter**            | One of the main divisions of a book.
+**Collection**             | An aggregation of resources, which may encompass collections of one resourceType as well as those of mixed types. A collection is described as a group; its parts
+**ComputationalNotebook**  | [A virtual notebook environment used for literate](https://en.wikipedia.org/wiki/Literate_programming) programming
+**ConferencePaper**        | Article that is written with the goal of being accepted to a conference
+**ConferenceProceeding**   | Collection of academic papers published in the context of an academic conference
+**DataPaper**              | A factual and objective publication with a focused intent to identify and describe specific data, sets of data, or data collections to facilitate discoverability
+**Dataset**                | Data encoded in a defined structure
+**Dissertation**           | A written essay, treatise, or thesis,
+**Event**                  | A non-persistent, time- based occurrence
+**Image**                  | A visual representation other than text
+**InteractiveResource**    | A resource requiring interaction from the user to be understood, executed, or experienced
+**Model**                  | An abstract, conceptual, graphical, mathematical or visualization model that represents empirical objects, phenomena, or physical processes
+**OutputManagementPlan**   | A formal document that outlines how research outputs are to be handled both during a research project and after the project is completed
+**PeerReview**             | Evaluation of scientific, academic, or professional work by others working in the same field
+**PhysicalObject**         | An inanimate, three- dimensional object or substance
+**Preprint**               | A version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal
+**Report**                 | A document that presents information in an organized format for a specific audience and purpose
+**Service**                | An organized system of apparatus, appliances, staff, etc., for supplying some function(s) required by end users
+**Software**               | A computer program other than a computational notebook, in either source code (text) or compiled form. Use this type for general software components supporting scholarly research. Use the "ComputationalNote book" value for virtual notebooks.
+**Sound**                  | A resource primarily intended to be heard
+**Standard**               | Something established by authority, custom, or general consent as a model, example, or point of reference
+**Text**                   | A resource consisting primarily of words for reading that is not covered by any other textual
+**Workflow**               | A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner
+**Other**                  |
 
 ## Contributor types
 | **Option** | **Definition**
 |---|---
-| ContactPerson	| Person with knowledge of how to access, troubleshoot, or otherwise field issues related to the resource
-| DataCollector	| Person/institution responsible for finding or gathering/collecting data under the guidelines of the author(s) or Principal Investigator (PI)
-| DataCurator | Person tasked with reviewing, enhancing, cleaning, or standardizing metadata and the associated data submitted for storage, use, and maintenance within a data centre or repository
-| DataManager | Person (or organisation with a staff of data managers, such as a data centre) responsible for maintaining the finished resource
-| Distributor | Institution tasked with responsibility to generate/disseminate copies of the resource in either electronic or print form
-| Editor | A person who oversees the details related to the publication format of the resource
-| HostingInstitution | Typically, the organisation allowing the resource to be available on the internet through the provision of its hardware/software/operating support
-| Producer | Typically, a person or organisation responsible for the artistry and form of a media product
-| ProjectLeader | Person officially designated as head of project team or sub- project team instrumental in the work necessary to development of the resource
-| ProjectManager | Person officially designated as manager of a project. Project may consist of one or many project teams and sub-teams.
-| ProjectMember | Person on the membership list of a designated project/project team
-| RegistrationAgency | Institution/organisation officially appointed by a Registration Authority to handle specific tasks within a defined area of responsibility
-| RegistrationAuthority | A standards-setting body from which Registration Agencies obtain official recognition and guidance
-| RelatedPerson | A person without a specifically defined role in the development of the resource, but who is someone the author wishes to recognize
-| Researcher | A person involved in analysing data or the results of an experiment or formal study. May indicate an intern or assistant to one of the authors who helped with research but who was not so “key” as to be listed as an author.
-| ResearchGroup | Typically refers to a group of individuals with a lab, department, or division that has a specifically defined focus of activity.
-| RightsHolder | Person or institution owning or managing property rights, including intellectual property rights over the resource
-| Sponsor | Person or organisation that issued a contract or under the auspices of which a work has been written, printed, published, developed, etc.
-| Supervisor | Designated administrator over one or more groups/teams working to produce a resource, or over one or more steps of a development process
-| WorkPackageLeader | A Work Package is a recognized data product, not all of which is included in publication. The package, instead, may include notes, discarded documents, etc. The Work Package Leader is
+| **ContactPerson** |  Person with knowledge of how to access, troubleshoot, or otherwise field issues related to the resource
+| **DataCollector** |  Person/institution responsible for finding or gathering/collecting data under the guidelines of the author(s) or Principal Investigator (PI)
+| **DataCurator** |  Person tasked with reviewing, enhancing, cleaning, or standardizing metadata and the associated data submitted for storage, use, and maintenance within a data centre or repository
+| **DataManager** |  Person (or organisation with a staff of data managers, such as a data centre) responsible for maintaining the finished resource
+| **Distributor** |  Institution tasked with responsibility to generate/disseminate copies of the resource in either electronic or print form
+| **Editor** |  A person who oversees the details related to the publication format of the resource
+| **HostingInstitution** |  Typically, the organisation allowing the resource to be available on the internet through the provision of its hardware/software/operating support
+| **Producer** |  Typically, a person or organisation responsible for the artistry and form of a media product
+| **ProjectLeader** |  Person officially designated as head of project team or sub- project team instrumental in the work necessary to development of the resource
+| **ProjectManager** |  Person officially designated as manager of a project. Project may consist of one or many project teams and sub-teams.
+| **ProjectMember** |  Person on the membership list of a designated project/project team
+| **RegistrationAgency** |  Institution/organisation officially appointed by a Registration Authority to handle specific tasks within a defined area of responsibility
+| **RegistrationAuthority** |  A standards-setting body from which Registration Agencies obtain official recognition and guidance
+| **RelatedPerson** |  A person without a specifically defined role in the development of the resource, but who is someone the author wishes to recognize
+| **Researcher** |  A person involved in analysing data or the results of an experiment or formal study. May indicate an intern or assistant to one of the authors who helped with research but who was not so “key” as to be listed as an author.
+| **ResearchGroup** |  Typically refers to a group of individuals with a lab, department, or division that has a specifically defined focus of activity.
+| **RightsHolder** |  Person or institution owning or managing property rights, including intellectual property rights over the resource
+| **Sponsor** |  Person or organisation that issued a contract or under the auspices of which a work has been written, printed, published, developed, etc.
+| **Supervisor** |  Designated administrator over one or more groups/teams working to produce a resource, or over one or more steps of a development process
+| **WorkPackageLeader** |  A Work Package is a recognized data product, not all of which is included in publication. The package, instead, may include notes, discarded documents, etc. The Work Package Leader is
 
 ## Relation types
 | **Option** | Definition
 |---|---
-|IsCitedBy | indicates that B includes A in a citation
-| Cites | indicates that A includes B in a citation
-| IsSupplementTo | indicates that A is a supplement to B
-| IsSupplementedBy | indicates that B is a supplement to A
-| IsContinuedBy | indicates A is continued by the work B
-| Continues | indicates A is a continuation of the work B
-| Describes |indicates A describes B
-| IsDescribedBy | indicates A is described by B
-| HasMetadata | indicates resource A has additional metadata B
-| IsMetadataFor | indicates additional metadata A for a resource B
-| HasVersion | indicates A has a version (B)
-| IsVersionOf | indicates A is a version of B
-| IsNewVersionOf | indicates A is a new edition of B, where the new edition has been modified or updated
-| IsPreviousVersionOf | indicates A is a previous edition of B
-| IsPartOf | indicates A is a portion of B; may be used for elements of a series
-| HasPart | indicates A includes the part B
-| IsPublishedIn | indicates A is published inside B, but is independent of other things published inside of B
-| IsReferencedBy | indicates A is used as a source of information by B
-| References | indicates B is used as a source of information for A
-| IsDocumentedBy | indicates B is documentation about/ explaining A; e.g. points to software documentation
-| Documents | indicates A is documentation about B; e.g. points to software documentation
-| IsCompiledBy | indicates B is used to compile or create A
-| Compiles | indicates B is the result of a compile or
-| IsVariantFormOf | indicates A is a variant or different form of B
-| IsOriginalFormOf | indicates A is the original form of B
-| IsIdenticalTo | indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource
-| IsReviewedBy | indicates that A is reviewed by B
-| Reviews | indicates that A is a review of B
-| IsDerivedFrom | indicates B is a source upon which A is based
-| IsSourceOf | indicates A is a source upon which B is based
-| IsRequiredBy | Indicates A is required by B
-| Requires | Indicates A requires B
-| Obsoletes | Indicates A replaces B
-| IsObsoletedBy | Indicates A is replaced by B
+| **IsCitedBy** |  indicates that B includes A in a citation
+| **Cites** |  indicates that A includes B in a citation
+| **IsSupplementTo** |  indicates that A is a supplement to B
+| **IsSupplementedBy** |  indicates that B is a supplement to A
+| **IsContinuedBy** |  indicates A is continued by the work B
+| **Continues** |  indicates A is a continuation of the work B
+| **Describes** | indicates A describes B
+| **IsDescribedBy** |  indicates A is described by B
+| **HasMetadata** |  indicates resource A has additional metadata B
+| **IsMetadataFor** |  indicates additional metadata A for a resource B
+| **HasVersion** |  indicates A has a version (B)
+| **IsVersionOf** |  indicates A is a version of B
+| **IsNewVersionOf** |  indicates A is a new edition of B, where the new edition has been modified or updated
+| **IsPreviousVersionOf** |  indicates A is a previous edition of B
+| **IsPartOf** |  indicates A is a portion of B; may be used for elements of a series
+| **HasPart** |  indicates A includes the part B
+| **IsPublishedIn** |  indicates A is published inside B, but is independent of other things published inside of B
+| **IsReferencedBy** |  indicates A is used as a source of information by B
+| **References** |  indicates B is used as a source of information for A
+| **IsDocumentedBy** |  indicates B is documentation about/ explaining A; e.g. points to software documentation
+| **Documents** |  indicates A is documentation about B; e.g. points to software documentation
+| **IsCompiledBy** |  indicates B is used to compile or create A
+| **Compiles** |  indicates B is the result of a compile or
+| **IsVariantFormOf** |  indicates A is a variant or different form of B
+| **IsOriginalFormOf** |  indicates A is the original form of B
+| **IsIdenticalTo** |  indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource
+| **IsReviewedBy** |  indicates that A is reviewed by B
+| **Reviews** |  indicates that A is a review of B
+| **IsDerivedFrom** |  indicates B is a source upon which A is based
+| **IsSourceOf** |  indicates A is a source upon which B is based
+| **IsRequiredBy** |  Indicates A is required by B
+| **Requires** |  Indicates A requires B
+| **Obsoletes** |  Indicates A replaces B
+| **IsObsoletedBy** |  Indicates A is replaced by B
