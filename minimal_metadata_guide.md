@@ -66,7 +66,7 @@ By doing this we have linked or mapped the relations between our document to oth
 | 7c | | Identifier(s) | R | R | If known, enter one or more unique identifiers like AuthorID, ORCID, ISNI or ResearcherID.<br>The VU strongly recommends registering for an ORCID ([https://orcid.org/](https://orcid.org/)). This is an easy way to uniquely identify yourself over which you have full control.
 | 7d | | Type | M | M | The role of the contributor, see the [table](#contributor-types) for possible types. If contributor is used then Contributor Type is mandatory.
 | 8  | Date(s) | | R | R | If applicable add extra dates applying to your dataset. A good addition is the “Date collected”, meaning the date or date range when you collected the dataset.
-| 9  | Language | | O | O | The primary language of your dataset. Please use a 2 letter code (e.g. en, nl, fr, see https://www.loc.gov/standards/iso639-2/php/code_list.php).
+| 9  | Language | | O | O | The primary language of your dataset.<br>Please use a 2 letter code (e.g. en, nl, fr, see https://www.loc.gov/standards/iso639-2/php/code_list.php).
 | 10 | Resource Type | | M | M | Choose one of the following terms from the [table](#resource-types)
 | 11 | Alternate Identfier(s) | | O | O | Alternative identifiers (next to the one supplied in 1) uniquely describing your dataset.
 | 12a | Related Item(s) | | R | R | Information about a resource related to the one being registered, e.g. another dataset based on the same source data or a publication involving this dataset .

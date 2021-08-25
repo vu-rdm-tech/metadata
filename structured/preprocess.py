@@ -38,7 +38,7 @@ def process(doc):
 if __name__ == "__main__":
     inputfile, outputfile = main(sys.argv[1:])
 
-print(inputfile, outputfile)
+print(f'process {inputfile}')
 
 with open(inputfile, encoding="utf8") as f:
     doc = f.read()
@@ -47,3 +47,5 @@ doc = process(doc)
 
 with open(outputfile, 'w', encoding="utf8") as f:
     f.write(doc)
+
+print(f'output written to {outputfile}')

@@ -18,7 +18,7 @@
 | 7c | | Identifier(s) | R | R | {{explanation/person-identifier.md}}
 | 7d | | Type | M | M | {{explanation/contributor-type.md}}
 | 8  | Date(s) | | R | R | {{explanation/date.md}}
-| 9  | Language | | O | O | {{explanation/language.md}}
+| 9  | Language | | O | O | {{explanation/language.md}}<br>{{explanation/language-code.md}}
 | 10 | Resource Type | | M | M | {{explanation/resource-type.md}}
 | 11 | Alternate Identfier(s) | | O | O | {{explanation/alternative-identifier.md}}
 | 12a | Related Item(s) | | R | R | {{explanation/related-item.md}}
