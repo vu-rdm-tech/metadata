@@ -11,11 +11,14 @@
 When cloning the repository initialise this module with `git submodule update --init --remote -- melite`
 
 ## Building metadata documentation from parts
-Example: the minimal guide template [structured/docs/minimal-guide.md](structured/docs/minimal-guide.md)
+Examples: 
+The minimal guide template [structured/docs/minimal-guide.md](structured/docs/minimal-guide.md) and the Yoda table [structured/docs/yoda-metadata-table.md](structured/docs/yoda-metadata-table.md) 
 ```
 cd structured
-python preprocess.py -i docs/minimal-guide.md -o minimal-metadata-guide.md
+python preprocess.py -i docs/minimal-guide.md -o ../minimal_metadata_guide.md
+python preprocess.py -i /docs/yoda-metadata-table.md -o ../Yoda/metadata_table.md
 ```
+Note an updated Yoda table should be copied into https://github.com/vu-rdm-tech/site/blob/master/getting-started/metadata-add.md for use on yoda.vu.nl
 ## Creating different file formats
 Install [pandoc](https://pandoc.org/installing.html).
 ```
