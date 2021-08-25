@@ -1,5 +1,5 @@
 ## Properties and explanations
-**M** Considered mandatory for findability of your dataset and correct registration in Pure  
+**M** Mandatory  
 **R** Recommended for optimal findability  
 **O** Optional
 
