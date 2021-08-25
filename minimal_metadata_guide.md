@@ -1,5 +1,4 @@
 # Minimal descriptive metadata for research data
-# Minimal descriptive metadata for research data
 
 ## Introduction
 Data and metadata standards can be complex and difficult to start working with. This document provides a practical guideline to working with a generic minimal metadata description that can be used to describe any dataset. In this document we define:
