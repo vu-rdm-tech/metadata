@@ -1,4 +1,4 @@
-## Relation types
+### Relation types
 | **Option** | Definition
 |---|---
 | **IsCitedBy** |  indicates that B includes A in a citation

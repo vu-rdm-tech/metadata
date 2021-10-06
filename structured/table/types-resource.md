@@ -1,4 +1,4 @@
-## Resource types
+### Resource types
 | **Option** | Definition
   --- | ---
 **Audiovisual**            | A series of visual representations imparting an impression of motion when shown in succession. May or may not include sound.

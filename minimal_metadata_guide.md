@@ -32,7 +32,6 @@ this document as a guideline for recommended and mandatory fields extra to those
 
 If your storage system does not provide you with functionality for entering metadata (for example ResearchDrive, OneDrive) you can consider using the human-writable, machine readable form of these guidelines, [Melite](https://github.com/vu-rdm-tech/melite-metadata/blob/main/melite-proposed.md), which we have developed and can be saved as a plaing text file.
 
-
 ## Using related identifiers
 This metadata specification allows you to link the dataset or collection that it describes to other online resources. More commonly know as [Linked Data](https://en.wikipedia.org/wiki/Linked_data) these relations form the basis of the Semantic Web and can be thought of as a set of statements that relate a *subject* (the dataset described by the metadata) using a *predicate* (the related identifier property) to an *object* (represented by a unique identifier).
 

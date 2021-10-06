@@ -1,4 +1,4 @@
-## Contributor types
+### Contributor types
 | **Option** | **Definition**
 |---|---
 | **ContactPerson** |  Person with knowledge of how to access, troubleshoot, or otherwise field issues related to the resource

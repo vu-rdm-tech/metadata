@@ -1,4 +1,6 @@
-## Properties and explanations
+## Properties and defined types
+
+### Properties and their explanation
 **M** Considered mandatory for findability of your dataset and correct registration in Pure  
 **R** Recommended for optimal findability  
 **O** Optional

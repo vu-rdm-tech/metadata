@@ -1,6 +1,8 @@
 # Minimal descriptive metadata for research data
 
 ## Introduction
+
+### Definition of terms
 Data and metadata standards can be complex and difficult to start working with. This document provides a practical guideline to working with a generic minimal metadata description that can be used to describe any dataset. In this document we define:
 - **dataset** as information generated, or used, that is conceptually and/or logically related and can be written down (encoded/serialised) as one or more files in a machine readable format.
 - **metadata** as information that describes a dataset and can be written down (serialised/encoded) in one or more standard formats and a
@@ -17,20 +19,20 @@ By publishing we mean sharing the metadata and, if possible, the dataset itself 
 
 The VU data management policy requires published datasets to be registered in the research information system [Pure](https://research.vu.nl) and rhe minimal metadata specification includes the necessary properties that allows for easy dataset registration in Pure. When research data is deposited in widely-used, registered, repositories (DataverseNL, Yoda, Zenodo, etc.) it can be automatically harvested and registered in Pure without having to enter the same information twice.
 
-#### Human vs. machine readability
+### Human vs. machine readability
 When describing a dataset think about how the metadata will be used. Computers will index the metadata so you should add
 relevant keywords, description and a title so your dataset will pop up in an internet search. Make sure you as creator and all the contributors are correctly named so published datasets are correctly attributed to you and automated systems can attribute the dataset to your research output. Explicitly adding persistent URLs to related publications or datasets to the metadata enables them to be efficiently linked together.
 
 Once someone finds your dataset he or she will want to read your description to quickly see if the dataset is relevant,
 so it is important that the *Description* should be human readable. While the description should describe the data it is generally good practice to add extra information about the dataset in additional documentation. This can take the form of a README.txt file or codebook and can provide more context on how the data was gathered and processed, the experimental protocols and software used to generate the dataset as well as the filename system and variable nanes used in the individual files etc.
 
-### How to use this document?
+## How to use this document?
 Most, if not all, repositories and publication platforms will use their own webform for metadata with mandatory and recommended fields. Consider
 this document as a guideline for recommended and mandatory fields extra to those the particular system requires. Sometimes properties might be differently named (for example authors vs creators) but in all cases it should be possible to enter, at least, the mandatory metadata that is advised in this document. Similarly, during your research, if domain-specific metadata exists, that includes the mandatory properties described here, then it is recomended to use the domain-specific format as metadata. However, in cases where no domain-specific metadata exists, the guidelines presented here should be considered.
 
 If your storage system does not provide you with functionality for entering metadata (for example ResearchDrive, OneDrive) you can consider using the human-writable, machine readable form of these guidelines, [Melite](https://github.com/vu-rdm-tech/melite-metadata/blob/main/melite-proposed.md), which we have developed and can be saved as a plaing text file.
 
-### Using related identifiers
+## Using related identifiers
 This metadata specification allows you to link the dataset or collection that it describes to other online resources. More commonly know as [Linked Data](https://en.wikipedia.org/wiki/Linked_data) these relations form the basis of the Semantic Web and can be thought of as a set of statements that relate a *subject* (the dataset described by the metadata) using a *predicate* (the related identifier property) to an *object* (represented by a unique identifier).
 
 For example, consider metadata describing this specification document (the dataset), we could say:
