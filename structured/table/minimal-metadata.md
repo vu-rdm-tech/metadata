@@ -17,7 +17,7 @@
 | 5  | Publication Year | | M | O | {{explanation/publicationyear.md}}
 | 6  | Subject(s) | | R | R | {{explanation/subject.md}}
 | 7 | Contributor(s) | | R | R | {{explanation/contributor.md}}
-| 7a | | Name | R | R | {{explanation/person-name.md}}
+| 7a | | Name | M | M | {{explanation/person-name.md}}
 | 7b | | Affiliation(s) | M | M | {{explanation/person-affiliation.md}}
 | 7c | | Identifier(s) | R | R | {{explanation/person-identifier.md}}
 | 7d | | Type | M | M | {{explanation/contributor-type.md}}
