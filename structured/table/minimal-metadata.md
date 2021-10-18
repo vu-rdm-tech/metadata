@@ -8,14 +8,16 @@
 | **ID** | **Property** | **Subproperty** | **Publishing** | **Archiving** | **Explanation**
 |---|---|---|---|---|---
 | 1 |  Identifier |  | M | O | {{explanation/identifier.md}}
-| 2a |Creator(s) | Name | M | M | {{explanation/creator.md}}<br>{{explanation/person-name.md}}
+| 2 | Creator(s) | | M | M | {{explanation/creator.md}}
+| 2a | | Name | M | M | {{explanation/person-name.md}}
 | 2b | | Affiliation(s) | M | M | {{explanation/person-affiliation.md}}
 | 2c | | Identifier(s) | R | R | {{explanation/person-identifier.md}}
 | 3  | Title | | M | M | {{explanation/title.md}}
 | 4  | Publisher | | M | O | {{explanation/publisher.md}}
 | 5  | Publication Year | | M | O | {{explanation/publicationyear.md}}
 | 6  | Subject(s) | | R | R | {{explanation/subject.md}}
-| 7a | Contributor(s) | Name | R | R | {{explanation/contributor.md}}<br>{{explanation/person-name.md}}
+| 7 | Contributor(s) | | R | R | {{explanation/contributor.md}}
+| 7a | | Name | R | R | {{explanation/person-name.md}}
 | 7b | | Affiliation(s) | M | M | {{explanation/person-affiliation.md}}
 | 7c | | Identifier(s) | R | R | {{explanation/person-identifier.md}}
 | 7d | | Type | M | M | {{explanation/contributor-type.md}}
