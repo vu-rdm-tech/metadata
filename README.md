@@ -1,10 +1,10 @@
 # Metadata guidelines
 
 The source document for all dataset metadata related guides is the 
-[minimal metadata guide](minimal_metadata_guide.md) in the root folder.
+**[minimal metadata guide](minimal_metadata_guide.md)** in the root folder.
 
-Guides for specific tools like Yoda, OSF or Pure are derivatives of this document and will use the same texts, explanations
-and terminology.
+Metadata guides for specific tools like Yoda, OSF, DataverseNL or Pure are derivatives of this document and should use 
+the same texts, explanations and terminology as much as possible.
 
 This repository acts as the _Source of Truth_ of all the dataset metadata guidelines the VU uses as internal 
 documentation or publishes online for researchers and data stewards. If anything needs to change, 
@@ -17,6 +17,11 @@ in all derivatives.
 
 This way we can make sure all the information we publish stays consistent. The
 excellent versioning functionality of github means we also keep a log of all changes.
+
+### Intended audience
+The [minimal metadata guide](minimal_metadata_guide.md) is meant as a reference for support 
+personnel involved in the VU NRDS network. Tool specific guides are targeted at researchers. 
+
 ## How to request changes
 ### Create an issue
 The easiest way to request a change is by opening a new issue on https://github.com/vu-rdm-tech/metadata/issues.
