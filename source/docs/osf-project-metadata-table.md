@@ -7,4 +7,4 @@
 | Category | M | Choose the most appropriate category for your project | 
 | License | M | Choose the most appropriate license for your project. | For most content and data "CC-By 4.0 International" is a good choice, but especially in the case of code you might look into a more appropriate license.
 
-Version {{version.md}}
+Version {{docs/guide_version.md}}

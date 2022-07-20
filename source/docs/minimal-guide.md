@@ -1,4 +1,4 @@
-Version {{version.md}}
+Version {{docs/guide_version.md}}
 
 {{part/minimal-guide-introduction.md}}
 
