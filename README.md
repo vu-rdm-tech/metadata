@@ -96,19 +96,18 @@ OSF/project_metadata_table.md
 
 Note an updated Yoda table should be copied into https://github.com/vu-rdm-tech/site/blob/master/getting-started/metadata-add.md for use on yoda.vu.nl
 
-## Other documents
-
-[Yoda datacite mapping](Yoda/Metadata%20Yoda-Pure.ods)
-
-[Using metadata in Yoda](https://yoda.vu.nl/site/getting-started/metadata-add.html)
-([Source](https://github.com/vu-rdm-tech/site/blob/master/getting-started/metadata-add.md))
-
-[melite text format](melite/melite-proposed.md) 
-When cloning the repository initialise this module with `git submodule update --init --remote -- melite`
-
 ## Creating different file formats
 Install [pandoc](https://pandoc.org/installing.html) (Linux only). Then:
 ```
 pandoc -f markdown -t docx -o minimal-metadata-guide.docx minimal-metadata-guide.md 
 pandoc -f markdown -t pdf -o minimal-metadata-guide.pdf minimal-metadata-guide.md
 ```
+
+## Other documents
+[Yoda datacite mapping (Excel)](Yoda/Metadata%20Yoda-Pure.ods)
+
+[Using metadata in Yoda](https://yoda.vu.nl/site/getting-started/metadata-add.html)
+([Source](https://github.com/vu-rdm-tech/site/blob/master/getting-started/metadata-add.md))
+
+[melite text format](melite/melite-proposed.md) 
+When cloning the repository initialise this module with `git submodule update --init --remote -- melite`
