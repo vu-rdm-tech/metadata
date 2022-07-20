@@ -14,11 +14,11 @@ at least compatible with DataCite so usually an easy translation can be made bet
 and the terms in this guide (for example "authors" will be "creators").
 
 This repository acts as the _Source of Truth_ of all the dataset metadata guidelines the VU uses as internal 
-documentation or publishes online for researchers and data stewards. If changes in the minimal guide or the repository guides
+documentation or publishes online for researchers and data stewards. If changes in the minimal guide or the tool guides
 are necessary, we will review these, then update this repository first and only then will we copy updated texts to the 
 various VU websites (Teams, vuweb, libguides, yoda.vu.nl, OSF wiki, etc.). 
 
-Metadata guides for specific repositories like Yoda, OSF, DataverseNL or Pure are derivatives of this document and should use 
+Metadata guides for specific tools like Yoda, OSF, DataverseNL or Pure are derivatives of this document and should use 
 the same texts, explanations and terminology as much as possible.
 
 Make sure to reference the metadata guidelines version number, found in `source/docs/version.md` is referenced 
@@ -30,8 +30,8 @@ these offical guidelines. The excellent versioning functionality of github means
 The [minimal metadata guide](minimal_metadata_guide.md) is mainly meant as a reference for support 
 personnel involved in the VU NRDS network. 
 
-To target researchers repository specific guides are preferred, so they do not have to interpret 
-these guidelines for that repository themselves. 
+To target researchers tool specific guides are preferred, so they do not have to interpret 
+these guidelines for that tool themselves. 
 
 ## How to request changes
 ### Create an issue
@@ -77,7 +77,7 @@ Do not edit the `minimal_metadata_guide.md` directly, but edit the `.md` documen
 - To edit the introduction text: edit `source/part/minimal-guide-introduction.md`
 - To edit the main document structure edit `source/docs/minimal-guide.md`
 
-### 4b. Edit the metadata table for a specific repository
+### 4b. Edit the metadata table for a specific tool
 - For OSF project metadata, edit `source/docs/osf-project-metadata-table.md`.
 - For Yoda, edit `source/docs/yoda-metadata-table.md`.
 ### 5. Update the version number
