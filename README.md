@@ -1,26 +1,37 @@
 # Metadata guidelines
 
-The source document for all dataset metadata related guides is the 
-**[minimal metadata guide](minimal_metadata_guide.md)** in the root folder.
+The source document for all dataset metadata related guides at the VU is the 
+**[minimal metadata guide](minimal_metadata_guide.md)** in the root folder. This document contains a table 
+that states mandatory, recommended and optional properties that VU researchers should use if they publish their
+data in any repository. At minimum researchers should make sure all mandatory properties are used, of course 
+specific repositories might also have additional mandatory fields.
+
+The guide was approved by VUO in 2021 and can be considered official VU policy.
+
+### Use
+The properties used are based on the DataCite standard. Most data repositories will use a metadata scheme that is
+at least compatible with DataCite so usually an easy translation can be made between terms used in a repository
+and the terms in this guide (for example "authors" will be "creators").
+
+This repository acts as the _Source of Truth_ of all the dataset metadata guidelines the VU uses as internal 
+documentation or publishes online for researchers and data stewards. If changes in the minimal guide or the tool guides
+are necessary, we will review these, then update this repository first and only then will we copy updated texts to the 
+various VU websites (Teams, vuweb, libguides, yoda.vu.nl, OSF wiki, etc.). 
 
 Metadata guides for specific tools like Yoda, OSF, DataverseNL or Pure are derivatives of this document and should use 
 the same texts, explanations and terminology as much as possible.
 
-This repository acts as the _Source of Truth_ of all the dataset metadata guidelines the VU uses as internal 
-documentation or publishes online for researchers and data stewards. If anything needs to change, 
-either in the minimal metadata guide itself or in one of the tool guides, we update this repository first and 
-then we copy the new texts to the various websites (Teams, vuweb, libguides, 
-yoda.vu.nl, OSF wiki, etc.). 
-
-Make sure to reference the metadata guidelines version number, found in `source/docs/version.md` 
+Make sure to reference the metadata guidelines version number, found in `source/docs/version.md` is referenced 
 in all derivatives. 
 
-This way we can make sure all the information we publish stays consistent. The
-excellent versioning functionality of github means we also keep a log of all changes.
-
+This way we can make sure all the information we publish about dataset metadata stays consistent and follows 
+these offical guidelines. The excellent versioning functionality of github means we also keep a log of all changes.
 ### Intended audience
-The [minimal metadata guide](minimal_metadata_guide.md) is meant as a reference for support 
-personnel involved in the VU NRDS network. Tool specific guides are targeted at researchers. 
+The [minimal metadata guide](minimal_metadata_guide.md) is mainly meant as a reference for support 
+personnel involved in the VU NRDS network. 
+
+To target researchers tool specific guides are preferred, so they do not have to interpret 
+these guidelines for that tool themselves. 
 
 ## How to request changes
 ### Create an issue
