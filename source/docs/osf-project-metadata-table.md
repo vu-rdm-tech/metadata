@@ -7,4 +7,4 @@
 | Category | M | Choose the most appropriate category for your project | 
 | License | M | Choose the most appropriate license for your project. | For most content and data "CC-By 4.0 International" is a good choice, but especially in the case of code you might look into a more appropriate license.
 
-Version {{docs/guide_version.md}}
+Based on [VU minimal metadata guidelines](https://github.com/vu-rdm-tech/metadata/blob/main/minimal_metadata_guide.md) version {{docs/guide_version.md}}
