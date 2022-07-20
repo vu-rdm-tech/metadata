@@ -1,3 +1,5 @@
+Version rc2 2022-07-20
+
 # Minimal descriptive metadata for research data
 
 ## Introduction
