@@ -25,20 +25,20 @@ Please be as explicit as possible about the exact change you want and why it nee
 ### Create a pull request
 You can also make changes in the documents themselves and propose them by making a pull request. [Editing the documents](#editing-the-documents)
 ## Editing the documents
-### Prerequisites
+### 1. Prerequisites
 - Make sure you have an [account on github](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
 - Make sure you have [installed git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 - Make sure you have a suitable markdown editor. [Visual Studio Code](https://code.visualstudio.com/) is a nice free one.
 
 Note that Visual Studio Code has [built-in git support](https://code.visualstudio.com/docs/editor/versioncontrol), so you do not have to use the command line git commands.
 
-### Get the documents and code
+### 2. Get the documents and code
 - If you don't have the code on your pc first clone the metadata repository to an appropriate place:
 ```
 git clone https://github.com/vu-rdm-tech/metadata
 ```
 - If you already have the repository on your pc make sure you run a `git pull` to get the latest changes.
-### Create a new branch for your changes
+### 3. Create a new branch for your changes
 ```
 git checkout -b <branch name>
 ```
@@ -46,20 +46,24 @@ git checkout -b <branch name>
 
 This makes sure you do not directly change the main branch. Instead you will create a Pull request, that can be 
 reviewed by others.
-### Edit the minimal metadata guide
+### 4a. Edit the minimal metadata guide
 Do not edit the `minimal_metadata_guide.md` directly, but edit the `.md` documents in the source folder.
 
 - To edit a property explanation: edit the appropriate document under `source/explanation`
 - To edit the (sub)properties and obligations: edit `source/table/minimal-metadata.md`
 - To edit the introduction text: edit `source/part/minimal-guide-introduction.md`
 
-### Edit the metadata table for a specific tool
+### 4b. Edit the metadata table for a specific tool
 - For OSF project metadata, edit `source/docs/osf-project-metadata-table.md`.
 - For Yoda, edit `source/docs/osf-project-metadata-table.md`.
 
 As you can see in these documents you can reference an explanation by including it between double curly braces. 
 For example to paste in the the title explanation use `{{explanation/title.md}}`
-### Commit and push back to github
+
+### 5. Update the version number
+Edit `source/docs/guide_version.md`
+
+### 6. Commit and push back to github
 Once you are satisfied with your changes commit them.
 ```
 git commit -m '<some useful message>'
