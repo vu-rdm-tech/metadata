@@ -4,7 +4,7 @@ The source document for all dataset metadata related guides at the VU is the
 **[minimal metadata guide](minimal_metadata_guide.md)** in the root folder. This document contains a table 
 that states mandatory, recommended and optional properties that VU researchers should use if they publish their
 data in any repository. At minimum researchers should make sure all mandatory properties are used, of course 
-specific repositories might also have additional mandatory fields.
+specific repositories might require additional mandatory fields.
 
 The guide was approved by VUO in 2021 and can be considered official VU policy.
 
