@@ -6,7 +6,8 @@
 | **No** | **Property** | **Obligation** | **Explanation** | **Remarks**                                              |
 | --- | --- | --- | --- | --- |
 | 1   | Title | M | A descriptive title for your dataset, should not be longer than about 200 characters |  
-| 2   | Description | M | Describe your dataset, e.g. the subject, the sample size, methodology, etc. It is best to keep this description concise. More elaborate documentation should be added in a text file called README. |  
+| 2   | Description | M | Describe your dataset, e.g. the subject, the sample size, methodology, etc. It is best to keep this description concise. More elaborate documentation should be added in a text file called README.<br>If the data is meant as replication data for a publication you can reference the publication here, it is also strongly
+recommended to use the relation properties. |  
 | 3   | Discipline | R | The (sub)discipline of the study | The list contains a combination of research disciplines and subdisciplines. The standard used is the [OECD FOS 2007](http://www.oecd.org/sti/inno/38235147.pdf). This field can have multiple values &mdash; use the plus sign to add more values.
 | 4   | Version | O | Version number of your dataset. Useful if you need to publish an updated version of your dataset later. | Yoda does not automatically assign version numbers to data packages. If you   create multiple versions, you can register the version number yourself,   according to your own versioning scheme.
 | 5   | Language of the data | O | The primary language of your dataset. | This element is thought of as a possible aid to assess the usability of a dataset for a specific person. The standard used is ISO 639/1.
