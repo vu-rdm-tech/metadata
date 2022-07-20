@@ -60,7 +60,7 @@ Do not edit the `minimal_metadata_guide.md` directly, but edit the `.md` documen
 
 ### 4b. Edit the metadata table for a specific tool
 - For OSF project metadata, edit `source/docs/osf-project-metadata-table.md`.
-- For Yoda, edit `source/docs/osf-project-metadata-table.md`.
+- For Yoda, edit `source/docs/yoda-metadata-table.md`.
 
 As you can see in these documents you can reference an explanation by including it between double curly braces. 
 For example to paste in the the title explanation use `{{explanation/title.md}}`
@@ -79,7 +79,12 @@ Now push the changes to the repo on github:
 ```
 git push
 ```
+### 7. Create a Pull request
+- Switch to your branch in github.
+- Click "Compare & pull request"
+- Write a comment and click create Pull request
 
+The pull request can now be reviewed and merged by the repository admins.
 ## Build the documents
 Run:
 ```
