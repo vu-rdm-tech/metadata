@@ -66,6 +66,7 @@ reviewed by others.
 Do not edit the `minimal_metadata_guide.md` directly, but edit the `.md` documents in the source folder.
 
 - To edit a property explanation: edit the appropriate document under `source/explanation`
+  - Note: to indicate a new line in an explanation only use the HTML tag `<br>`. Other linebreaks will mess up the table formatting
 - To edit the (sub)properties and obligations: edit `source/table/minimal-metadata.md`
 - To edit the introduction text: edit `source/part/minimal-guide-introduction.md`
 
