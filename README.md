@@ -23,7 +23,7 @@ The easiest way to request a change is by opening a new issue on https://github.
 
 Please be as explicit as possible about the exact change you want and why it needs to be changed.
 ### Create a pull request
-You can also make changes in the documents themselves and propose them by making a pull request. See  
+You can also make changes in the documents themselves and propose them by making a pull request. [Editing the documents](#editing-the-documents)
 ## Editing the documents
 ### Prerequisites
 - Make sure you have an [account on github](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
