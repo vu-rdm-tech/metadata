@@ -66,7 +66,7 @@ Edit `source/docs/guide_version.md`
 ### 6. Commit and push back to github
 Once you are satisfied with your changes commit them.
 ```
-git commit -m '<some useful message>'
+git commit -a -m '<some useful message>'
 ```
 You can reference a github issue in your commit message by using `#<issue number>`.
 
