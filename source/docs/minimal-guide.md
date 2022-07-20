@@ -1,3 +1,5 @@
+Version {{version.md}}
+
 {{part/minimal-guide-introduction.md}}
 
 {{table/minimal-metadata.md}}
