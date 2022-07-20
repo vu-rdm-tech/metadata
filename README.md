@@ -21,8 +21,7 @@ various VU websites (Teams, vuweb, libguides, yoda.vu.nl, OSF wiki, etc.).
 Metadata guides for specific tools like Yoda, OSF, DataverseNL or Pure are derivatives of this document and should use 
 the same texts, explanations and terminology as much as possible.
 
-Make sure to reference the metadata guidelines version number, found in `source/docs/version.md` is referenced 
-in all derivatives. 
+Make sure the metadata guidelines version number, found in `source/docs/version.md`, is referenced in all derivatives. 
 
 This way we can make sure all the information we publish about dataset metadata stays consistent and follows 
 these offical guidelines. The excellent versioning functionality of github means we also keep a log of all changes.
