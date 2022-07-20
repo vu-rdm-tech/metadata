@@ -116,8 +116,8 @@ Note an updated Yoda table should be copied into https://github.com/vu-rdm-tech/
 ## Creating different file formats
 Install [pandoc](https://pandoc.org/installing.html) (Linux only). Then:
 ```
-pandoc -f markdown -t docx -o minimal-metadata-guide.docx minimal-metadata-guide.md 
-pandoc -f markdown -t pdf -o minimal-metadata-guide.pdf minimal-metadata-guide.md
+pandoc -f markdown -t docx -o minimal_metadataguide.docx minimal_metadata_guide.md 
+pandoc -f markdown -t pdf -o minimal_metadata_guide.pdf minimal_metadata_guide.md
 ```
 
 ## Other documents
