@@ -118,10 +118,10 @@ Note an updated Yoda table should be copied into https://github.com/vu-rdm-tech/
 An updated OSF table can be copied into https://osf.io/abwzm/wiki/Metadata%20recommendation/.
 
 ## Creating different file formats
-Install [pandoc](https://pandoc.org/installing.html) (Linux only). Then:
+Install [pandoc](https://pandoc.org/installing.html) (Linux version is easiest to use). Then:
 ```
-pandoc -f markdown -t docx -o minimal_metadataguide.docx minimal_metadata_guide.md 
-pandoc -f markdown -t pdf -o minimal_metadata_guide.pdf minimal_metadata_guide.md
+pandoc -f markdown -t docx -o other_formats/minimal_metadataguide.docx minimal_metadata_guide.md 
+pandoc -f markdown -t pdf -o _formats/minimal_metadata_guide.pdf minimal_metadata_guide.md
 ```
 
 ## Other documents
