@@ -114,7 +114,8 @@ Yoda/metadata_table.md
 OSF/project_metadata_table.md
 ```
 
-Note an updated Yoda table should be copied into https://github.com/vu-rdm-tech/site/blob/master/getting-started/metadata-add.md for use on yoda.vu.nl
+Note an updated Yoda table should be copied into https://github.com/vu-rdm-tech/site/blob/master/getting-started/metadata-add.md for use on yoda.vu.nl.
+An updated OSF table can be copied into https://osf.io/abwzm/wiki/Metadata%20recommendation/.
 
 ## Creating different file formats
 Install [pandoc](https://pandoc.org/installing.html) (Linux only). Then:
