@@ -62,6 +62,12 @@ git checkout -b <branch name>
 
 This makes sure you do not directly change the main branch. Instead you will create a Pull request, that can be 
 reviewed by others.
+
+### 4 Editing the documents
+The markdown documents can reference other documents by including them between double curly braces. 
+For example to paste in the title explanation text use `{{explanation/title.md}}`. This makes it easier to
+reuse bits of text and target specific change requests.
+
 ### 4a. Edit the minimal metadata guide
 Do not edit the `minimal_metadata_guide.md` directly, but edit the `.md` documents in the source folder.
 
@@ -69,14 +75,11 @@ Do not edit the `minimal_metadata_guide.md` directly, but edit the `.md` documen
   - Note: to indicate a new line in an explanation only use the HTML tag `<br>`. Other linebreaks will mess up the table formatting
 - To edit the (sub)properties and obligations: edit `source/table/minimal-metadata.md`
 - To edit the introduction text: edit `source/part/minimal-guide-introduction.md`
+- To edit the main document structure edit `source/docs/minimal-guide.md`
 
 ### 4b. Edit the metadata table for a specific tool
 - For OSF project metadata, edit `source/docs/osf-project-metadata-table.md`.
 - For Yoda, edit `source/docs/yoda-metadata-table.md`.
-
-As you can see in these documents you can reference an explanation by including it between double curly braces. 
-For example to paste in the the title explanation use `{{explanation/title.md}}`
-
 ### 5. Update the version number
 Edit `source/docs/guide_version.md`
 
