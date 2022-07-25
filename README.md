@@ -86,6 +86,8 @@ git push
 
 The pull request can now be reviewed and merged by the repository admins.
 ## Build the documents
+Make sure you have installed [Python](https://www.python.org/downloads/). No further Python modules are necessary
+
 Run:
 ```
 cd structured
