@@ -6,7 +6,7 @@ data in any repository. At minimum researchers should make sure all mandatory pr
 The guide was approved by VUO in 2021 and can be considered official VU policy.
 
 ### Use
-The properties used are based on the DataCite standard. Most data repositories will use a metadata scheme that is at least compatible with DataCite so usually an easy translation can be made between terms used in a repository and the terms in this guide (for example "authors" will be "creators").
+The properties used are based on the [DataCite Metadata Schema 4.4](https://schema.datacite.org/meta/kernel-4.4/). Most data repositories will use a metadata scheme that is at least compatible with DataCite so usually an easy translation can be made between terms used in a repository and the terms in this guide (for example "authors" will be "creators").
 
 This repository acts as the _Source of Truth_ of all the dataset metadata guidelines the VU uses as internal documentation or publishes online for researchers and data stewards. If changes in the minimal guide or the tool guides are necessary, we will review these, then update this repository first and only then will we copy updated texts to the various VU websites (Teams, vuweb, libguides, yoda.vu.nl, OSF wiki, etc.). 
 
