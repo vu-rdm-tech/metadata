@@ -30,6 +30,6 @@ jobs:
           python-version: 3.8 #install the python needed
       - name: build metadata guide
         run: |
-          python source/preprocess.py -i %cd%source/docs/minimal-guide.md -o %cd%/minimal_metadata_guide.md
+          python source/preprocess.py -i %cd%/source/docs/minimal-guide.md -o %cd%/minimal_metadata_guide.md
       - name: commit result
         uses: stefanzweifel/git-auto-commit-action@v4
