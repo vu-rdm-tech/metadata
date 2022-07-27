@@ -79,20 +79,25 @@ Now push the changes to the repo on github:
 ```
 git push
 ```
-### 7. Build the guides from the parts
-- Open the [repo in github](https://github.com/vu-rdm-tech/metadata)
-- Go to Actions
-- Under Workflows click "Process docs"
-- Click Run workflow
 
-The guide and table will automatically be rebuilt and pushed back to github.
+Github will now also automatically rebuild `minimal-metadata-guide.md`, `OSF/project_metadata_table.md` and `Yoda/metadata_table.md`. You can view the results in the[repo in github](https://github.com/vu-rdm-tech/metadata) or do a `git pull` to review the changed files in your editor.
 
-### 8. Create a Pull request
+### 7. Create a Pull request
 - Switch to your branch in github.
 - Click "Compare & pull request"
 - Write a comment and click create Pull request
 
 The pull request can now be reviewed and merged by the repository admins.
+
+## Troubleshoot the document rebuilding
+This is defined in `.github/workflows`.
+
+To view the logging:
+- Open the [repo in github](https://github.com/vu-rdm-tech/metadata)
+- Go to Actions
+- Under Workflows click "Process docs"
+
+You should see the results of all runs here. 
 
 ## Creating different file formats
 Install [pandoc](https://pandoc.org/installing.html) (Linux version is easiest to use). Then:
