@@ -22,11 +22,10 @@ def main(argv):
     return inputfile, outputfile
 
 
-def process(doc):
+def process(doc, root='./source'):
     matches = re.findall(r'{{([^{}]+)}}', doc)
-    #matches = re.findall(r'{{([^\^}]+)(\^.+)?}}', doc)
     for filename in matches:
-        file = f'{os.getcwd()}/{filename}'
+        file = f'{root}/{filename}'
         with open(file, encoding="utf8") as f:
             part = f.read().rstrip().replace('<br>\n','<br>')
 
@@ -41,7 +40,7 @@ if __name__ == "__main__":
 print(f'process {inputfile}')
 
 with open(inputfile, encoding="utf8") as f:
-    doc = f.read()
+    doc = f.read()    
 
 doc = process(doc)
 
