@@ -93,11 +93,9 @@ The pull request can now be reviewed and merged by the repository admins.
 This is defined in `.github/workflows`.
 
 To view the logging:
-- Open the [repo in github](https://github.com/vu-rdm-tech/metadata)
-- Go to Actions
-- Under Workflows click "Process docs"
+See [Actions in the repo and click "Process docs"](https://github.com/vu-rdm-tech/metadata/actions/workflows/main.yml).
 
-You should see the results of all runs here. 
+You should see the results of all runs here. You can also manually start a run by clicking "Run workflow" and selecting the branch you want to process.
 
 ## Creating different file formats
 Install [pandoc](https://pandoc.org/installing.html) (Linux version is easiest to use). Then:
