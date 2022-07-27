@@ -31,5 +31,11 @@ jobs:
       - name: build metadata guide
         run: |
           python source/preprocess.py -i source/docs/minimal-guide.md -o minimal_metadata_guide.md
+      - name: build yoda table
+        run: |
+          python source/preprocess.py -i source/docs/yoda-metadata-table.md -o Yoda/metadata_table.md
+      - name: build osf table
+        run: |
+          python source/preprocess.py -i source/docs/osf-project-metadata-table.md -o OSF/project_metadata_table.md
       - name: commit result
         uses: stefanzweifel/git-auto-commit-action@v4
