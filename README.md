@@ -79,30 +79,20 @@ Now push the changes to the repo on github:
 ```
 git push
 ```
-### 7. Create a Pull request
+### 7. Build the guides from the parts
+- Open the [repo in github](https://github.com/vu-rdm-tech/metadata)
+- Go to Actions
+- Under Workflows click "Process docs"
+- Click Run workflow
+
+The guide and table will automatically be rebuilt and pushed back to github.
+
+### 8. Create a Pull request
 - Switch to your branch in github.
 - Click "Compare & pull request"
 - Write a comment and click create Pull request
 
 The pull request can now be reviewed and merged by the repository admins.
-## Build the documents
-Make sure you have installed [Python](https://www.python.org/downloads/). No further Python modules are necessary.
-
-Run:
-```
-cd structured
-generate-docs.bat
-```
-
-Will create:
-```
-minimal_metadata_guide.md
-Yoda/metadata_table.md
-OSF/project_metadata_table.md
-```
-
-Note an updated Yoda table should be copied into https://github.com/vu-rdm-tech/site/blob/master/getting-started/metadata-add.md for use on yoda.vu.nl.
-An updated OSF table can be copied into https://osf.io/abwzm/wiki/Metadata%20recommendation/.
 
 ## Creating different file formats
 Install [pandoc](https://pandoc.org/installing.html) (Linux version is easiest to use). Then:
