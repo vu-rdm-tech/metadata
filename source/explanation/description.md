@@ -1,0 +1,2 @@
+Describe your dataset, e.g. the subject, the sample size, methodology, etc. It is best to keep this description concise. More elaborate documentation should be added in a text file called README.<br>
+If the data is meant as replication data for a publication you can reference the publication here, it is also strongly recommended to use the relation properties.

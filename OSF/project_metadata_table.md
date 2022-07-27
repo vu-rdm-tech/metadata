@@ -1,8 +1,10 @@
-| **Property** | **Obligation** | **Explanation** | **Remarks**                                              |
-| --- | --- | --- | --- |
-| DOI | R | | If you want to be able to cite your project it is best to create a DOI for it. 
+| **Property** | **Obligation** | **Explanation**                                       | **Remarks**                                              |
+| --- | --- |---| --- |
+| DOI | R | |  [OSF Guide](https://help.osf.io/hc/en-us/articles/360019931013-Create-DOIs)<br>If you want to be able to cite your project it is best to create a DOI for it. 
 | Title | M | A descriptive title for your dataset, should not be longer than about 200 characters |
-| Contributors | M | The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource.<br>For software, if there is an alternate entity that "holds, archives, publishes, prints, distributes, releases, issues, orproduces" the code, use the contributor Type "hostingInstitution" for the code repository. | OSF does not make a difference between "Creators" and "Contributors". Make sure to check "Bibliographic Contributor". You can adjust the order of the contributors.
-| Tags | M | Provide a list of keywords describing your dataset. This will make it easier to find your dataset on the internet.<br>Some repositories will have controlled term lists to choose from. | 
+| Contributors | M | The main researchers involved in producing the data, in priority order. |  [OSF Guide](https://help.osf.io/hc/en-us/articles/360019930193-Add-Contributors-to-Projects-and-Components).<br>Make sure to check "Biblographic Contributor". You can adjust the order of the contributors.<br>Please ask Contributors to fill in their employment status in their user profile to set their affiliation. Users logging in with their VUnetId will automatically be affiliated with the VU.<br>Adding ORCID or other researcher identifiers to contributor profiles is also highly recommended.
+| Tags | M | Provide a list of keywords describing your dataset. This will make it easier to find your dataset on the internet.<br>Some repositories will have controlled term lists to choose from. | [OSF Guide](https://help.osf.io/hc/en-us/articles/360019738974-Tag-Your-Project) 
 | Category | M | Choose the most appropriate category for your project | 
-| License | M | Choose the most appropriate license for your project. | For most content and data "CC-By 4.0 International" is a good choice, but especially in the case of code you might look at a more appropriate license. 
+| License | M | Choose the most appropriate license for your project. | [OSF Guide](https://help.osf.io/hc/en-us/articles/360019737854-License-Your-Project)<br>For most content and data "CC-By 4.0 International" is a good choice, but especially in the case of code you might look into a more appropriate license.
+
+Based on [VU minimal metadata guidelines](https://github.com/vu-rdm-tech/metadata/blob/main/minimal_metadata_guide.md) version rc2 2022-07-27
