@@ -179,4 +179,4 @@ By doing this we have linked or mapped the relations between our document to oth
 | **Obsoletes** |  Indicates A replaces B
 | **IsObsoletedBy** |  Indicates A is replaced by B
 
-&copy; Peter Vos and Brett Olivier, Vrije Universiteit Amsterdam, 2021.
+&copy; Peter Vos and Brett Olivier, Vrije Universiteit Amsterdam, 2022.
